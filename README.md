@@ -374,9 +374,6 @@ Una vez que el valor de potencia requerido para mantener el equilibrio ha sido c
 
 ## Resultados
 
-Tras la realización del código se comprueba el correcto funcionamiento del mismo cargandolo al robot. 
-La parte de la programación fue la más complicada del proyecto, sin embargo, el robot cumple con los requisitos de movilidad planteados. El reto más difícil de la programación del robot fue el controlador para el equilibrio. El robot es una estructura compleja para mantener equilibrio debido a que la mayor parte del peso se encuentra distribuido en la parte superior, es decir el centro de masa esta muy arriba y el robot tiende a caerse fácilmente, los apoyos del robot únicamente son las llantas, por lo que prácticamente es un péndulo invertido.  El controlador implementado funciona lo suficientemente bien como para mantener el equilibrio del robot en una superficie plana, con pequeños desniveles o imperfecciones en la superficie. El controlador del robot es capaz de mantener el equilibrio por largos periodos de tiempo si no es perturbado por una fuerza externa, aun así, en la presencia de una fuerza externa menor es capaz de corregir su posición y seguir en equilibrio. En cuanto a la movilidad del robot, es difícil hacer que el robot avance continuamente, por lo que se decidió hacerlo avanzar por pequeños periodos de tiempo, y recuperar el equilibrio, el movimiento hacia adelante es lento, pero garantiza una estabilidad.  
-
 La siguiente imagen muestra 3 estados del robot, el de la izquierda el robot "dormido" y esperando a iniciar, en medio el robot "despierto" y ejecutando el proceso, y a la deracha el robot tras sufrir una caída.
 
 ![image](https://github.com/DiegoJGutierrezReyes/Mini-Proyecto-Giroboy/assets/132300202/062244ae-94ee-436d-b02e-b9b71d063b15)
@@ -390,7 +387,9 @@ VIDEO DEL MODO PREDETERMINADO: https://youtu.be/mpFF__DfdWc
 
 Por su parte, cuando *bandera=1* se entra en el modo de programción, donde se ejecutará en bucle la secuencia creada, a esta secuencia se le puede cambiar el orden de las acciones, asi como el tiempo que debe de ejecutarlas. El video de una secuencia programada se muestra a continuación:
 
-VIDEO DE LA RUTINA PROGRAMADA
+VIDEO DE LA RUTINA PROGRAMADA: https://youtu.be/TARbWWwveg8
 
 ## Conclusiones
+Tras la realización del código se comprueba el correcto funcionamiento del mismo cargandolo al robot. 
+La parte de la programación fue la más complicada del proyecto, sin embargo, el robot cumple con los requisitos de movilidad planteados. El reto más difícil de la programación del robot fue el controlador para el equilibrio. El robot es una estructura compleja para mantener equilibrio debido a que la mayor parte del peso se encuentra distribuido en la parte superior, es decir el centro de masa esta muy arriba y el robot tiende a caerse fácilmente, los apoyos del robot únicamente son las llantas, por lo que prácticamente es un péndulo invertido.  El controlador implementado funciona lo suficientemente bien como para mantener el equilibrio del robot en una superficie plana, con pequeños desniveles o imperfecciones en la superficie. El controlador del robot es capaz de mantener el equilibrio por largos periodos de tiempo si no es perturbado por una fuerza externa, aun así, en la presencia de una fuerza externa menor es capaz de corregir su posición y seguir en equilibrio. En cuanto a la movilidad del robot, es difícil hacer que el robot avance continuamente, por lo que se decidió hacerlo avanzar por pequeños periodos de tiempo, y recuperar el equilibrio, el movimiento hacia adelante es lento, pero garantiza una estabilidad.  
 
